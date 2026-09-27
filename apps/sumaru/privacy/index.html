@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sumaru Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbfbfa;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --accent: #4f5fce;
+    --rule: #e4e4e6;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121214;
+      --fg: #ececee;
+      --muted: #9a9aa0;
+      --accent: #9aa4ff;
+      --rule: #2a2a2d;
+      --card: #1a1a1d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 48px 20px 96px;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 1.7rem;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  p, li { color: var(--fg); }
+  ul { padding-left: 1.2em; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .placeholder {
+    background: var(--card);
+    border: 1px dashed var(--rule);
+    border-radius: 6px;
+    padding: 1px 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.92em;
+  }
+  footer {
+    margin-top: 56px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sumaru Privacy Policy</h1>
+  <p class="updated">Last updated: September 2026</p>
+
+  <p>
+    Sumaru is an ADHD-friendly task app built around one rule: your data stays yours.
+    Sumaru does not run its own servers and does not collect, store, or have access to
+    your task data. This page explains exactly what that means.
+  </p>
+
+  <h2>What's stored, and where</h2>
+  <p>
+    Everything you create in Sumaru — tasks, steps, categories, completion history,
+    settings — is stored locally on your device in a private on-device database.
+    Sumaru never transmits this data to any server operated by us, because no such
+    server exists.
+  </p>
+  <p>
+    If you turn on cross-device sync:
+  </p>
+  <ul>
+    <li>
+      <strong>iOS</strong> syncs through your own private iCloud account (Apple's
+      CloudKit), the same way Apple's own apps sync your data. We never see it — it
+      stays inside your Apple account, governed by
+      <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's privacy policy</a>.
+    </li>
+    <li>
+      <strong>Android</strong> syncs to a folder you choose yourself (via Android's
+      built-in file picker) — for example a folder inside your own Google Drive or
+      other cloud storage. Sumaru only writes to that folder; it never has its own
+      copy or access to your wider account.
+    </li>
+  </ul>
+  <p>
+    Uninstalling Sumaru deletes the local copy of your data. Anything synced to your
+    own iCloud or chosen folder remains entirely under your control, managed through
+    that service's own settings — not through us.
+  </p>
+
+  <h2>Advertising</h2>
+  <p>
+    Sumaru shows banner ads (never during an active task timer) served by
+    <strong>Google AdMob</strong>. Google's ad SDK may collect device and advertising
+    identifiers to serve and measure ads, per
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>
+    and its
+    <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob data disclosure</a>.
+  </p>
+  <p>
+    Every time you open Sumaru, it checks whether a consent form is required under
+    Google's User Messaging Platform (the standard GDPR/UMP consent flow) before any
+    ad is requested — a form is only shown when your region and settings require one.
+  </p>
+
+  <h2>Notifications</h2>
+  <p>
+    Reminders are scheduled locally by your device's own operating system. They are
+    never sent through a push-notification server, because Sumaru doesn't have one.
+  </p>
+
+  <h2>Children's privacy</h2>
+  <p>
+    Sumaru is not directed at children under 13, and we do not knowingly collect data
+    from children.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    If what Sumaru collects or how it's used ever changes — for example, adding
+    privacy-respecting crash reporting — this page will be updated first, with the
+    "last updated" date above reflecting the change.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy or your data can be sent to
+    <span class="placeholder">[contact email]</span>.
+  </p>
+
+  <footer>Sumaru</footer>
+</main>
+</body>
+</html>
